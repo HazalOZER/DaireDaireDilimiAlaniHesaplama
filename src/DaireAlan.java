@@ -15,8 +15,8 @@ public class DaireAlan {
         System.out.println("Lütfen Hesaplanması İstenilen Daire Diliminin Merkez Açısını Giriniz");
         double dilimAcisi= scan.nextDouble();
         
-        double dilimAlanı= (pi*r*r*dilimAcisi)/360;
+        double dilimAlani= (pi*r*r*dilimAcisi)/360;
        
-        System.out.println("Dairenin Alanı: "+alan+"\nDaire Diliminin Alanı: "+ dilimAlanı+ "\nNot: Pi 3,14 alınmıştır");
+        System.out.println("Dairenin Alanı: "+alan+"\nDaire Diliminin Alanı: "+ dilimAlani+ "\nNot: Pi 3,14 alınmıştır");
     }
 }
