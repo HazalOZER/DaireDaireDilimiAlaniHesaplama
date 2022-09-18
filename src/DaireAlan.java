@@ -17,8 +17,6 @@ public class DaireAlan {
         
         double dilimAlanı= (pi*r*r*dilimAcisi)/360;
        
-        System.out.println("Dairenin Alanı: "+alan);
-        System.out.println("Daire Diliminin Alanı: "+ dilimAlanı);
-        System.out.println("Not: Pi 3,14 alınmıştır");
+        System.out.println("Dairenin Alanı: "+alan+"\nDaire Diliminin Alanı: "+ dilimAlanı+ "\nNot: Pi 3,14 alınmıştır");
     }
 }
